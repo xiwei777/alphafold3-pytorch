@@ -1,0 +1,3 @@
+[submodule "alphafold3-jax"]
+	path = alphafold3-jax
+	url = git@github.com:google-deepmind/alphafold3.git
