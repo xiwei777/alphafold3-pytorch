@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphafold3_torch"
+version = "3.0.0"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = [
+    "absl-py",
+    "numpy",
+    "rdkit==2024.3.5",
+    "triton==3.1.0",
+    "tqdm",
+    "typeguard==2.13.3",
+    "zstandard",
+]
